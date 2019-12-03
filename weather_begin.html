@@ -54,7 +54,7 @@
 		else{
 			var TempUnits = "&units=imperial"}
 
-		let query = "http://api.openweathermap.org/data/2.5/weather?q="+Locat +TempUnits +YourWeatherAppID;
+		let query = "https://api.openweathermap.org/data/2.5/weather?q="+Locat +TempUnits +YourWeatherAppID;
         console.log("Query is :" + query)
 				console.log(TempUnits)
         $.getJSON(query,function(json){
