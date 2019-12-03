@@ -67,7 +67,7 @@
 						$("#loc").html(json.name)
 						var icon = json.weather[0]["icon"]
 						console.log(icon)
-						$("#tempImg").attr("src", "http://openweathermap.org/img/wn/"+icon+"@2x.png")
+						$("#tempImg").attr("src", "https://openweathermap.org/img/wn/"+icon+"@2x.png")
 						$("#tempImg").attr("alt", json.weather[0]["description"])
     })
 
